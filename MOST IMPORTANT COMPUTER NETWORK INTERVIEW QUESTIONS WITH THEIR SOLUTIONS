@@ -1,0 +1,234 @@
+1. What are two technologies used to connect remote offices? 
+
+VPN and cloud computing are two technologies commonly employed to establish connections between distant offices.
+
+2. Explain internetworking.
+
+Internetworking refers to the connection of disparate nodes or segments through intermediary devices like routers or gateways. This creates a unified network comprising individual networks from various sources, whether public, private, commercial, or governmental.
+
+3. Name the layers in the OSI model associated with user support.
+
+The application layer, presentation layer, and session layer are the software layers providing user support in the OSI model.
+
+4. Identify the hardware layers in the OSI model.
+
+The network layer, data link layer, and physical layer constitute the hardware layers in the OSI model.
+
+5. Define HTTPS protocol.
+
+HTTPS, or Hypertext Transfer Protocol Secure, is an enhanced version of HTTP. It utilizes port number 443 by default and employs the SSL/TLS protocol to ensure security during data transmission over the web.
+
+6. List some services offered by the application layer in the Internet model.
+
+Services provided by the application layer include mail services, directory services, file transfer, access management, and network virtual terminals.
+
+7. At which OSI layer are headers and trailers added?
+
+Headers are added at layer 6, 5, 4, and 3 of the OSI model, while trailers are added at the data link layer.
+
+8. What occurs in the OSI model as data packets ascend from lower to upper layers?
+
+As data packets ascend from lower to upper layers in the OSI model, headers are removed.
+
+9. What happens in the OSI model as data packets descend from upper to lower layers?
+
+As data packets descend from upper to lower layers in the OSI model, headers are appended, containing vital information.
+
+10. Define a zone-based firewall.
+
+A zone-based firewall is an advanced form of stateful firewall that regulates traffic based on source and destination IP addresses, port numbers, and directionality. It effectively controls access between different network zones.
+
+11. Describe a server farm.
+
+A server farm is a collection of interconnected servers housed within the same physical location. It consolidates computing power to execute multiple applications or services simultaneously, commonly found in enterprise data centers or supercomputing environments.
+
+12. Name three methods of user authentication.
+
+Biometrics (e.g., fingerprint or iris scan), token authentication, and password authentication are three common methods of user authentication. Two-factor authentication combines two of these methods for added security.
+
+13. Explain Confidentiality, Integrity & Availability (CIA) in network security.
+
+Confidentiality ensures information remains undisclosed to unauthorized entities, integrity maintains the accuracy and completeness of data, and availability ensures information is accessible when needed, guarding against denial of service attacks.
+
+14. What is a VPN?
+
+A Virtual Private Network (VPN) is a technology that establishes a secure, encrypted connection over an insecure network, such as the Internet. It enables users to access a private network remotely.
+
+15. Differentiate between Symmetric and Asymmetric Encryption.
+
+Symmetric encryption uses a single key for both encryption and decryption, whereas asymmetric encryption employs a pair of keys: a public key for encryption and a private key for decryption.
+
+16. On which OSI layer does IPsec operate?
+
+IPsec operates at layer 3 of the OSI model.
+
+17. Define Tunnel mode.
+
+Tunnel mode establishes a virtual tunnel between two communicating computers or networks, utilizing IPsec to secure all communication passing through it. It's commonly used between gateways or from an end-station to a gateway.
+
+18. Explain Digital Signatures.
+
+Digital signatures verify the authenticity and integrity of electronic messages or documents, ensuring they have not been tampered with by a third party.
+
+19. What is Authorization?
+
+Authorization determines the access privileges of a user or entity to specific network resources following successful authentication.
+
+20. Distinguish between an IPS and a firewall.
+
+An Intrusion Prevention System (IPS) detects and responds to malicious activities within a network, while a firewall controls incoming and outgoing traffic based on predefined security rules.
+
+21. Define IP Spoofing.
+
+IP Spoofing is a technique used by hackers to gain unauthorized access to computers by disguising their IP addresses. It can be employed to mask the origin of Denial of Service (DoS) attacks.
+
+22. Explain the terms threat, vulnerability, and risk.
+
+Threats are potential dangers that can exploit vulnerabilities and compromise assets. Vulnerabilities represent weaknesses or gaps in security defenses, while risk is the intersection of assets, threats, and vulnerabilities.
+
+23. What is the primary function of a DNS server?
+
+A DNS server translates domain names into IP addresses and vice versa, facilitating the resolution of internet addresses.
+
+24. Provide the protocol and port number of DNS.
+
+DNS uses both TCP and UDP protocols, with port number 53 designated for DNS traffic.
+
+25. Where does transmission media fit in the OSI model?
+
+Transmission media supports layer 1 (Physical layer) of the OSI model.
+
+26. What is the significance of twisting in twisted-pair cables?
+
+Twisting in twisted-pair cables, where two insulated copper wires are twisted together, is crucial for minimizing electromagnetic radiation and external interference.
+
+27. What type of error remains undetectable by checksum?
+
+Checksums are unable to detect multiple-bit errors.
+
+28. Which multiplexing method is commonly used in fiber-optic links?
+
+Fiber-optic links commonly utilize wavelength division multiplexing (WDM).
+
+29. Enumerate the advantages of fiber optics.
+
+Fiber optics offer several advantages:
+- Higher bandwidth compared to copper cables
+- Lower power loss, enabling data transmission over longer distances
+- Resistance to electromagnetic interference
+- Reduced size and weight
+- Enhanced security due to lack of electromagnetic energy emission
+- Durability against harsh elements
+- Cost-effectiveness in the long run
+- Faster transmission speed due to light signals
+
+30. Which multiplexing techniques combine analog signals?
+
+Frequency division multiplexing (FDM) and wavelength-division multiplexing (WDM) are commonly used to combine analog signals.
+
+31. What multiplexing method is employed to merge digital signals?
+
+Digital signals are combined using time division multiplexing (TDM).
+
+32. Can IP Multicast be load-balanced?
+
+No, IP Multicast cannot be load-balanced as the IP multicast multipath command splits traffic rather than balancing it across multiple paths.
+
+33. Define CGMP (Cisco Group Management Protocol).
+
+CGMP is a protocol used by routers to communicate with switches, allowing switches to listen to CGMP messages and act accordingly. It helps manage multicast group traffic efficiently.
+
+34. What is Multicast?
+
+Multicast is a communication method where data is sent from one sender to multiple receivers simultaneously, optimizing network bandwidth usage.
+
+35. Contrast Bluetooth and WiFi.
+
+Bluetooth and WiFi differ in various aspects:
+- Bluetooth operates with lower power consumption compared to WiFi.
+- Bluetooth's security is typically weaker than that of WiFi.
+- Bluetooth supports a smaller number of users compared to WiFi.
+- Bluetooth has a shorter radio signal range (10 meters) than WiFi (100 meters).
+- Bluetooth requires less bandwidth than WiFi.
+
+36. Explain the concept of a reverse proxy.
+
+A reverse proxy server redirects client requests to specific web servers located on different servers, serving as an intermediary. It can also restrict client access to sensitive data.
+
+37. What role does the address field play in packets traveling through a datagram network?
+
+In a datagram network, the address field provides end-to-end addressing, ensuring packets reach their intended destination.
+
+38. Can a routing table in a datagram network contain multiple entries with the same destination address?
+
+No, routing tables in a datagram network cannot have multiple entries with the same destination address, as each destination address must be unique.
+
+39. What arithmetic is utilized in adding data items for checksum calculation?
+
+Checksum calculations employ one's complement arithmetic to add data items.
+
+40. Define piggybacking.
+
+Piggybacking is a technique used in bidirectional protocols to improve efficiency. It involves including control information about arrived or lost frames in data frames, optimizing data transmission.
+
+Advanced Networking Interview Questions:
+
+41. What are the pros and cons of piggybacking?
+
+Piggybacking offers the advantage of better channel bandwidth utilization but introduces additional complexity and potential delays in acknowledgment transmission.
+
+42. What technique is used in byte-oriented protocols?
+
+Byte-oriented protocols use byte stuffing, where a special byte is added to the data section of a frame to distinguish it from the flag.
+
+43. Define OFDM.
+
+Orthogonal Frequency Division Multiplexing (OFDM) is a multiplexing technique used in analog systems, known for its high spectral efficiency and lack of a guard band.
+
+44. What is a transparent bridge?
+
+A transparent bridge automatically maintains routing tables, updates tables based on changing network topology, and consists of mechanisms for frame forwarding, address learning, and loop resolution.
+
+45. What are the minimum and maximum sizes of ICMPv4 packets?
+
+The minimum size of an ICMPv4 packet is 28 bytes, while the maximum size is 2068 bytes.
+
+46. Why is OSPF faster than RIP?
+
+OSPF's speed advantage over RIP stems from its use of a link-state routing algorithm, support for variable-length subnet masking and classless inter-domain routing, and computation of shortest path trees using Dijkstra’s algorithm.
+
+47. What are the two main categories of DNS messages?
+
+DNS messages are categorized as queries and replies.
+
+48. Why is the POP3 protocol necessary for email?
+
+The POP3 protocol allows users to access and download email messages from their mailboxes to their devices, providing convenience and offline access.
+
+49. Define Jitter.
+
+Jitter refers to packet delay variance in a network, particularly problematic for time-sensitive data like audio or video.
+
+50. Why is Bandwidth crucial to network performance?
+
+Bandwidth determines the amount of data that can be transmitted in a given time frame, influencing network speed and efficiency.
+
+51. How do you identify private or public IP addresses?
+
+Private IP addresses fall within reserved ranges, such as 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16, distinguishing them from public IP addresses.
+
+52. How can you obtain an IP address from a domain name?
+
+You can retrieve an IP address from a domain name using command-line tools like PING or nslookup, which provide DNS resolution.
+
+53. Which Diffie-Hellman group is considered most secure?
+
+Group 24 (2048-bit ECP) or higher is currently regarded as the most secure Diffie-Hellman group due to stronger encryption.
+
+54. How is flow control achieved in TCP?
+
+TCP utilizes a sliding window protocol for flow control, with the receiver advertising a window size indicating its buffer capacity, allowing the sender to regulate data transmission accordingly.
+
+55. How can you find your port number?
+
+You can find your port number using command-line tools like Netstat or resource monitor, which provide insights into network processes and port usage.
